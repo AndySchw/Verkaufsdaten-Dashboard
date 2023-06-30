@@ -1,0 +1,5042 @@
+[
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 920,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1401,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1019,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1279,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1272,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1302,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1336,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1242,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 740,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 539,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 707,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1110,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1444,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 872,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 544,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1001,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 631,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 597,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1011,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1452,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1490,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1376,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 906,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 880,
+        "Datum": "2023-06-01"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1048,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1060,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 821,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 531,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 558,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 933,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1063,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 962,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 907,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1044,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1047,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1195,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1072,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 940,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 516,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 661,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 964,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1017,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1065,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1253,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 593,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1012,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1435,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1070,
+        "Datum": "2023-06-02"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 848,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1408,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 890,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 824,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 622,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 879,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1402,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1191,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 806,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1112,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 999,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1301,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 644,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1377,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1222,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 990,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1113,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1228,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 949,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1301,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 550,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 914,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 609,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 671,
+        "Datum": "2023-06-03"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1034,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1235,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1299,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 718,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1482,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 966,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 901,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1272,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1319,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1247,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1014,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 983,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 553,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 556,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 506,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 723,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 536,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1369,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 527,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 808,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 684,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 644,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1229,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1070,
+        "Datum": "2023-06-04"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 647,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1423,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1196,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 648,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 913,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1454,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 764,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 761,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 774,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1484,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 945,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1197,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 683,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1455,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 796,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1045,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1491,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 552,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1443,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1118,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1440,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1401,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1428,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 501,
+        "Datum": "2023-06-05"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1429,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 544,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1213,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 804,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1325,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 587,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1211,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1155,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1442,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 679,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1250,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1067,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 945,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 532,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 812,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1180,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 923,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1137,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 579,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 515,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 902,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1094,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1059,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 746,
+        "Datum": "2023-06-06"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1201,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1038,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1329,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1404,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 724,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 883,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1029,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 967,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1200,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1103,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1425,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1297,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 656,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1478,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1123,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 711,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1245,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1170,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 667,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 808,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 634,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1196,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1068,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 818,
+        "Datum": "2023-06-07"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 979,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1202,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 719,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1417,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 571,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 503,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1301,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 915,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1164,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1038,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 997,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1269,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 916,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1175,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1106,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 810,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1419,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 810,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 515,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1394,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1405,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 727,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1414,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 951,
+        "Datum": "2023-06-08"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1226,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1421,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 507,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1170,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1257,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1095,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 978,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 942,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1184,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 744,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1366,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 620,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 947,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1482,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1157,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 643,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 742,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1100,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1464,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1221,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 934,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 978,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 899,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 578,
+        "Datum": "2023-06-09"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1182,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1351,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 970,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 918,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 720,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 898,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1389,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 661,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 889,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1349,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 571,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 542,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 666,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 541,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1324,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1362,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 965,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1456,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 820,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 910,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 606,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1403,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 889,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1111,
+        "Datum": "2023-06-10"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 786,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1247,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1294,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 736,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 698,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1172,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 993,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 999,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1027,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 916,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 991,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 574,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 981,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 847,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 588,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1374,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 643,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 971,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 932,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 790,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1085,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1358,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 732,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1037,
+        "Datum": "2023-06-11"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 823,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 651,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 998,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 621,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1060,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1141,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 675,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1152,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1464,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1434,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 598,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1056,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1494,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1468,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 712,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1042,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1336,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 558,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 914,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 922,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1055,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1211,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 555,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1208,
+        "Datum": "2023-06-12"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1421,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1186,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 820,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1480,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 948,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1009,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1386,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 580,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1325,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 664,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1162,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1250,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 763,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1404,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1413,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1361,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1356,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 790,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1120,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 647,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1141,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1291,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 727,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 617,
+        "Datum": "2023-06-13"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 768,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 643,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1217,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 970,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 999,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 712,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1221,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1423,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 757,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1451,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1273,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 887,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1358,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 855,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 755,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 741,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1238,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1111,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1131,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 844,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1019,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1452,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1235,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 674,
+        "Datum": "2023-06-14"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 500,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1009,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1073,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1074,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 742,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1177,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1326,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 603,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1084,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1163,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 504,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1214,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1241,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1027,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1388,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1463,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1196,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1166,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1324,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 871,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1262,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1232,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 544,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 771,
+        "Datum": "2023-06-15"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 608,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 634,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1437,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1055,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1241,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1327,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1417,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1271,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 909,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1322,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1027,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1398,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 771,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 835,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 855,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1065,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 899,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 859,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 926,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1148,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1036,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1008,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1408,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 745,
+        "Datum": "2023-06-16"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1496,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 852,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 893,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 591,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 867,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 892,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1003,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1369,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1196,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1152,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 882,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 791,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 517,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 964,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 936,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 721,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1290,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 713,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1351,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 895,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1181,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1045,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1342,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 584,
+        "Datum": "2023-06-17"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 540,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1203,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1386,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1106,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 831,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 520,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 561,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1446,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1131,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 687,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1375,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1385,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1361,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 843,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1429,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 580,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 922,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 863,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 644,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1368,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 724,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 792,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 615,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 997,
+        "Datum": "2023-06-18"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 759,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1284,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 647,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1410,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1242,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1204,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 710,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1289,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 997,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 868,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 910,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1450,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 838,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1136,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1086,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1307,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1062,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 910,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 833,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 505,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 525,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 834,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 727,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1223,
+        "Datum": "2023-06-19"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 548,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1444,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 843,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1023,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 932,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1214,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 583,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1447,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1056,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1439,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 801,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1485,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1238,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 650,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1038,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1410,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1404,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 596,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 896,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1083,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 962,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1213,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1034,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 908,
+        "Datum": "2023-06-20"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 909,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 633,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 715,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1013,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 718,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1023,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 727,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 586,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 912,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1355,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 682,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 788,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1008,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 641,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 738,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1022,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 750,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1036,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1063,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 617,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1142,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 878,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1082,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 793,
+        "Datum": "2023-06-21"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1431,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1248,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1272,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1210,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 906,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 569,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1398,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 521,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1458,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 654,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 999,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 883,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 553,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1175,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 563,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 968,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 523,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1050,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 758,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1037,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 866,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 507,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 890,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 787,
+        "Datum": "2023-06-22"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1152,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1298,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 651,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 803,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1398,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1381,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 923,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1419,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1005,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 871,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 840,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1147,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 874,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 846,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 840,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 559,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 605,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1267,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1374,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1262,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1056,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 634,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 748,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 711,
+        "Datum": "2023-06-23"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 801,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1387,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 886,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1462,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1251,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 643,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 560,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 705,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1318,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 521,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 754,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 514,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 961,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1139,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 684,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1431,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 687,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 872,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 589,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 506,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 785,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 726,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 776,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1264,
+        "Datum": "2023-06-24"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1391,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 524,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 573,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1245,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 703,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 614,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1417,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 604,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 991,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 597,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 640,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 921,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1261,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 802,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 636,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 613,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1293,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 994,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 952,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 736,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1342,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 568,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 700,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1390,
+        "Datum": "2023-06-25"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 548,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1260,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 562,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 868,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1277,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 946,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 807,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1017,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 938,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1438,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1041,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1499,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 962,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 791,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1225,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1467,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 754,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1130,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 763,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 584,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 890,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1282,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 570,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 837,
+        "Datum": "2023-06-26"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 775,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 591,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1362,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1465,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1136,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 877,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1134,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1174,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 609,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1097,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1093,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1000,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 713,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 722,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 983,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 792,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1211,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1252,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 899,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1158,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1461,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1425,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1382,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1271,
+        "Datum": "2023-06-27"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 793,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1392,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1217,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 663,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 638,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1027,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1494,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 556,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1005,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1126,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1124,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 912,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1427,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 544,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1308,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 743,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1497,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 621,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1299,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 948,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1303,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 928,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1477,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1420,
+        "Datum": "2023-06-28"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1041,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1437,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1211,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 937,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1009,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 815,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1056,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1125,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 965,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 525,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 940,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1194,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1081,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1377,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1295,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 766,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1454,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1069,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 869,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 996,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 984,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 726,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1480,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1041,
+        "Datum": "2023-06-29"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 886,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 650,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Sechskantschraube",
+        "Preis": 1.5,
+        "VerkaufteMenge": 1380,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1212,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 1204,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Holzschraube",
+        "Preis": 1.2,
+        "VerkaufteMenge": 578,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1319,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1078,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Maschinenschraube",
+        "Preis": 2.0,
+        "VerkaufteMenge": 1256,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 842,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 598,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Universalschraube",
+        "Preis": 1.75,
+        "VerkaufteMenge": 1010,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 903,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 691,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Senkkopfschraube",
+        "Preis": 1.25,
+        "VerkaufteMenge": 1302,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 586,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 916,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Zylinderschraube",
+        "Preis": 1.8,
+        "VerkaufteMenge": 1148,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 875,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1441,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Betonschraube",
+        "Preis": 2.25,
+        "VerkaufteMenge": 1135,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "Wuerth",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 697,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "HECO",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 1018,
+        "Datum": "2023-06-30"
+    },
+    {
+        "Hersteller": "SWG",
+        "Schraube": "Tellerkopfschraube",
+        "Preis": 2.5,
+        "VerkaufteMenge": 677,
+        "Datum": "2023-06-30"
+    }
+]
