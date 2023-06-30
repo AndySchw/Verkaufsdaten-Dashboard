@@ -1,7 +1,8 @@
 const MongoClient = require('mongodb').MongoClient;
 
 (async function() {
-  // MongoDB-Verbindungs-URL
+  // MongoDB-Verbindungs-URL    --------muss noch ins backend übertragen werden
+  //                                            VVVVVVVVVVVVVVVVVVVV
   const url = 'mongodb+srv://christiangruender:8fBQzZdDlLX1kBE4@cluster0.xhnylat.mongodb.net/schrauben24?retryWrites=true&w=majority';
   
   // Name der Datenbank und der Sammlung
