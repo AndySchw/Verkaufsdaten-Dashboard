@@ -1,119 +1,118 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Chart.js Techstarter Aufgabe</title>
-    <style>
-      .box1 {
-        flex-basis: calc(33.33% - 10px);
-        width: 33.33%;
-        padding: 20px;
-        box-sizing: border-box;
-        margin-bottom: 21px;
-        border: 1px solid #a30505;
-        border-radius: 5px;
-        text-align: center;
-        background-color: #6a77e9;
-      }
-      .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .menu {
-        background-color: #f0f0f0;
-        padding: 10px;
-        margin-bottom: 20px;
-      }
-      .box1:not(:last-child) {
-        margin-right: 10px;
-      }
 
-      .menu ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
+<head>
+  <title>Chart.js Techstarter Aufgabe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      .menu ul li {
-        display: inline-block;
-        margin-right: 10px;
-      }
-
-      .menu ul li a {
-        display: inline-block;
-        padding: 8px 16px;
-        background-color: #0a43fd;
-        color: #ffffff;
-        text-decoration: none;
-        border-radius: 4px;
-        transition: background-color 0.3s ease;
-      }
-
-      .menu ul li a:hover {
-        background-color: #45a049;
-      }
-
-      .box {
-        display: flex;
-        flex-wrap: wrap;
-      }
-
-      .box > div {
-        width: 33.33%;
-      }
-    </style>
-  </head>
-  <body>
-    <center>
-      <div class="menu">
-        <ul>
-          <li><a href="index.html">Dashboard</a></li>
-          <li><a href="#">Hersteller</a></li>
-        </ul>
+<body>
+  <!-- Navigationsbar mit Darkmode Switch -->
+  <div class="menu">
+    <nav>
+      <ul>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="#">Hersteller</a></li>
+      </ul>
+      <div class="switch-container">
+        <input type="checkbox" id="switch" />
+        <label for="switch"></label>
       </div>
-    </center>
-<!-- Neue Boxen oberhalb der Barcharts -->
-<div class="container">
-  <div class="box1">
-    <p>Umsatz pro Schraubenart pro Monat:<br>:Zahlen:</p>
+    </nav>
   </div>
-  <div class="box1">
-    <p>Umsatz pro Schraubenart pro Hersteller pro Monat:<br>:Zahlen:</p>
+
+  <!-- Oberer Bereich -->
+  <!-- output evtl nummerieren?! um die ausgaben besser zu organisieren -->
+  <div class="container">
+    <div class="box1">
+      <div id="output">:Zahl:</div>
+      <select onchange="updateOutput(this.value)">
+        <option value="umsatz_pro_schraubenart_pro_monat">Umsatz pro Schraubenart pro Monat</option>
+        <!-- weitere optionen im dropdown menü -->
+      </select>
+    </div>
+    <div class="box1">
+      <div id="output">:Zahl:</div>
+      <select onchange="updateOutput(this.value)">
+        <option value="am_meisten_verkaufte_schraubenart">Am meisten verkaufte Schraubenart</option>
+        <!-- weitere optionen im dropdown menü -->
+      </select>
+    </div>
+    <div class="box1">
+      <div id="output">:Zahl:</div>
+      <select onchange="updateOutput(this.value)">
+        <option value="umsatz_pro_schraubenart_pro_hersteller_pro_monat">Umsatz pro Schraubenart pro Hersteller pro
+          Monat</option>
+        <!-- weitere optionen im dropdown menü -->
+      </select>
+    </div>
+    <div class="box1">
+      <div id="output">:Zahl:</div>
+      <select onchange="updateOutput(this.value)">
+        <option value="gesamtumsatz_pro_hersteller_pro_monat">Gesamtumsatz pro Hersteller für einen Monat</option>
+        <!-- weitere optionen im dropdown menü -->
+      </select>
+    </div>
   </div>
-  <div class="box1">
-    <p>Gesamtumsatz pro Hersteller für einen Monat:<br>:Zahlen:</p>
+
+  <!-- Mittelteil -->
+  <div class="box">
+    <div>
+      <canvas id="barchart"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart2"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart3"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart4"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart5"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart6"></canvas>
+    </div>
   </div>
-</div>
-    <div class="box">
+
+  <!-- Unterer Bereich -->
+  <div class="container">
+    <div class="box_u_li">
       <div>
-        <canvas id="barchart"></canvas>
+        <select onchange="updateChart(this)">
+          <option value="chart1">Chart 1</option>
+          <option value="chart2">Chart 2</option>
+        </select>
       </div>
-      <div>
-        <canvas id="barchart2"></canvas>
-      </div>
-      <div>
-        <canvas id="barchart3"></canvas>
-      </div>
-      <div>
-        <canvas id="barchart4"></canvas>
-      </div>
-      <div>
-        <canvas id="barchart5"></canvas>
-      </div>
-      <div>
-        <canvas id="barchart6"></canvas>
+      <div id="chartContainer">
+        <!-- Hier wird der ausgewählte Chart angezeigt -->
+        <canvas id="selectedChart"></canvas>
       </div>
     </div>
+    <div class="box_u_re">
+      <div>
+        <select onchange="updateManufacturer(this.value)">
+          <option value="Wuerth">Wuerth</option>
+          <option value="HECO">HECO</option>
+          <option value="SWG">SWG</option>
+        </select>
+      </div>
+    </div>
+  </div>
 
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
-    <script src="barchart.js"></script>
-    <script src="barchart2.js"></script>
-    <script src="barchart3.js"></script>
-    <script src="barchart4.js"></script>
-    <script src="barchart5.js"></script>
-    <script src="barchart6.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
+  <script src="barchart.js"></script>
+  <script src="barchart2.js"></script>
+  <script src="barchart3.js"></script>
+  <script src="barchart4.js"></script>
+  <script src="barchart5.js"></script>
+  <script src="barchart6.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
 </html>
