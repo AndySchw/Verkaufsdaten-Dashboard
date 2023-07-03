@@ -44,6 +44,7 @@ body {
     width: 49%;
     margin: 5px;
 }
+
 /* Ende chart div boxen für die einzelseiten */
 
 .box1 {
@@ -70,6 +71,22 @@ body {
     margin-top: 10px;
     margin-right: 10px;
 }
+
+.container_unten {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_u_li {
+    width: 49%;
+    border: 2px solid black;
+}
+
+.box_u_re {
+    width: 49%;
+    border: 2px solid black;
+}
+
 
 .box1:not(:last-child) {
     margin-right: 10px;
