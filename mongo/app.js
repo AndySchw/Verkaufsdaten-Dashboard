@@ -5,6 +5,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+//max fragen ob mit cors? .. 
 app.use(cors());
 
 
