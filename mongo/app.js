@@ -79,6 +79,44 @@ app.get('/api/top3', async (req, res) => {
   }
 });
 
+app.get('/api/hersteller', async (req, res) => {
+  try {
+    const result = await Schraube.aggregate([
+      {
+        $group: {
+          _id: '$Hersteller',
+          VerkaufteMenge: { $sum: '$VerkaufteMenge' }
+        }
+      },
+      { $sort: { VerkaufteMenge: -1 } }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB');
+  }
+});
+
+app.get('/api/date', async (req, res) => {
+  try {
+    const result = await Schraube.aggregate([
+      {
+        $group: {
+          _id: '$Datum',
+          VerkaufteMenge: { $sum: '$VerkaufteMenge' }
+        }
+      },
+      { $sort: { VerkaufteMenge: -1 } },
+      { $limit: 3 }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB');
+  }
+});
+
+
 
 app.listen(3000, () => {
   console.log('Server started on port 3000');
