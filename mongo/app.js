@@ -45,6 +45,8 @@ mongoose.connect("mongodb+srv://christiangruender:8fBQzZdDlLX1kBE4@cluster0.xhny
 })
 .catch(err => console.log(err));
 
+
+
 //routen..
 
 app.get('/', (req, res) => {

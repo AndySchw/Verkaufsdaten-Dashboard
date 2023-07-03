@@ -11,7 +11,7 @@ async function createChart() {
   const data = {
     labels: labels,
     datasets: [{
-      label: 'Top 3 Schrauben nach Verkaufte Menge',
+      label: 'Meisstverkaufte Schrauben',
       data: datasetData,
       backgroundColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
       borderColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
