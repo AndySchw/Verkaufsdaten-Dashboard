@@ -5,7 +5,7 @@ async function createChart() {
   console.log(result)
 
   // Convert data into Chart.js format
-  const labels = result.map(entry => entry.Schraube);
+  const labels = result.map(entry => entry._id);
   const datasetData = result.map(entry => entry.VerkaufteMenge);
 
   const data = {
@@ -23,7 +23,7 @@ async function createChart() {
   new Chart(
     document.getElementById('barchart'),
     {
-      type: 'bar',
+      type: "bar",
       data: data,
       options: {
         scales: {
