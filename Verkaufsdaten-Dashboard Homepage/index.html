@@ -8,18 +8,23 @@
 
 <body>
   <!-- Navigationsbar mit Darkmode Switch -->
-  <div class="menu">
-    <nav>
-      <ul>
-        <li><a href="index.html">Dashboard</a></li>
-        <li><a href="#">Hersteller</a></li>
-      </ul>
-      <div class="switch-container">
-        <input type="checkbox" id="switch" />
-        <label for="switch"></label>
-      </div>
-    </nav>
-  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hersteller<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="HECO.html"> HECO</a></li>
+          <li><a href="SWG.html">  SWG</a></li>
+          <li><a href="Wuerth.html">Wuerth</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="switch-container">
+      <input type="checkbox" id="switch" />
+      <label for="switch"></label>
+    </div>
+  </nav>  
 
   <!-- Oberer Bereich -->
   <!-- output evtl nummerieren?! um die ausgaben besser zu organisieren -->
