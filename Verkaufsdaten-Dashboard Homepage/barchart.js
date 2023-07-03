@@ -1,6 +1,6 @@
 async function createChart() {
   // Fetch data from the server
-  const response = await fetch('/api/top3');
+  const response = await fetch('http://localhost:3000/api/top3');
   const result = await response.json();
   console.log(result)
 

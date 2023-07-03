@@ -2,7 +2,11 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const express = require('express');
+const cors = require('cors');
 const app = express();
+
+app.use(cors());
+
 
 // Define Mongoose schema
 const SchraubeSchema = new Schema({
@@ -12,9 +16,6 @@ const SchraubeSchema = new Schema({
   VerkaufteMenge: Number,
   Datum: Date
 });
-
-// Add compound unique index on Hersteller and Schraube fields
-//SchraubeSchema.index({ Hersteller: 1, Schraube: 1 }, { unique: true });
 
 const Schraube = mongoose.model('Schraube', SchraubeSchema);
 
@@ -27,26 +28,29 @@ mongoose.connect("mongodb+srv://christiangruender:8fBQzZdDlLX1kBE4@cluster0.xhny
   // Read the JSON file
   const data = JSON.parse(fs.readFileSync('output.json', 'utf8'));
 
-  // Insert or update data in MongoDB
+  // Insert new data into MongoDB
   await Promise.all(data.map(async (entry) => {
-    await Schraube.updateMany(
-      { Hersteller: entry.Hersteller, Schraube: entry.Schraube },
-      { $set: entry },
-      { upsert: true }
-    );
+    const existingDocument = await Schraube.findOne({
+      Hersteller: entry.Hersteller,
+      Schraube: entry.Schraube,
+      Datum: entry.Datum
+    });
+    if (!existingDocument) {
+      await Schraube.create(entry);
+    }
   }));
 
-  console.log('Data inserted or updated successfully');
+  console.log('Data inserted successfully');
 })
 .catch(err => console.log(err));
 
 //routen..
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Schraubeeeen!!');
 });
 
-app.get('/schrauben', async (req, res) => {
+app.get('/api/schrauben', async (req, res) => {
   try {
     const schrauben = await Schraube.find({});
     res.send(schrauben);
