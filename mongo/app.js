@@ -53,6 +53,7 @@ app.get('/', (req, res) => {
   res.send('Schraubeeeen!!');
 });
 
+//alle schrauben
 app.get('/api/schrauben', async (req, res) => {
   try {
     const schrauben = await Schraube.find({});
@@ -62,6 +63,7 @@ app.get('/api/schrauben', async (req, res) => {
   }
 });
 
+//top3schrauben/verkauf
 app.get('/api/top3', async (req, res) => {
   try {
     const result = await Schraube.aggregate([
@@ -77,10 +79,11 @@ app.get('/api/top3', async (req, res) => {
     res.json(result);
   } catch (err) {
     console.error(err);
-    res.status(500).send('Error retrieving data from MongoDB');
+    res.status(500).send('Error retrieving data from MongoDB-top3/verkauf');
   }
 });
 
+//top3hersteller/verkauf
 app.get('/api/hersteller', async (req, res) => {
   try {
     const result = await Schraube.aggregate([
@@ -95,10 +98,11 @@ app.get('/api/hersteller', async (req, res) => {
     res.json(result);
   } catch (err) {
     console.error(err);
-    res.status(500).send('Error retrieving data from MongoDB');
+    res.status(500).send('Error retrieving data from MongoDB-top3/hersteller');
   }
 });
 
+//verkaufszahlen/tag
 app.get('/api/date', async (req, res) => {
   try {
     const result = await Schraube.aggregate([
@@ -114,9 +118,87 @@ app.get('/api/date', async (req, res) => {
     res.json(result);
   } catch (err) {
     console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB-verkaufszahlen/tag');
+  }
+});
+
+//verkaufswochentag-durchschnittlich bester verkaufstag pro woche.
+app.get('/api/verkaufswochentag', async (req, res) => {
+  try {
+    const result = await Schraube.aggregate([
+      {
+        $group: {
+          _id: { $dayOfWeek: '$Datum' },
+          avgSales: { $avg: '$VerkaufteMenge' }
+        }
+      },
+      { $sort: { _id: 1 } }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
     res.status(500).send('Error retrieving data from MongoDB');
   }
 });
+
+
+// //verkaufswochentag-durchschnittlich bester verkaufstag pro woche.  
+// //req-params
+// app.get('/api/verkaufswochentag/:dayOfWeek', async (req, res) => {
+//   try {
+//     const dayOfWeek = parseInt(req.params.dayOfWeek);
+//     const result = await Schraube.aggregate([
+//       {
+//         $match: {
+//           'Datum': {
+//             $eq: dayOfWeek
+//           }
+//         }
+//       },
+//       {
+//         $group: {
+//           _id: { dayOfWeek: { $dayOfWeek: '$Datum' } },
+//           totalSales: { $sum: '$VerkaufteMenge' }
+//         }
+//       },
+//       { $sort: { totalSales: -1 } }
+//     ]);
+//     res.json(result);
+//   } catch (err) {
+//     console.error(err);
+//     res.status(500).send('Error retrieving data from MongoDB-verkaufswochentag');
+//   }
+// });
+
+
+
+// //schraubenartverkauf/monat
+// app.get('/api/umsatz/:month', async (req, res) => {
+//   try {
+//     const month = parseInt(req.params.month);
+//     const result = await Schraube.aggregate([
+//       {
+//         $match: {
+//           $expr: {
+//             $eq: [{ $month: '$Datum' }, month]
+//           }
+//         }
+//       },
+//       {
+//         $group: {
+//           _id: '$Schraube',
+//           Umsatz: { $sum: { $multiply: ['$Preis', '$VerkaufteMenge'] } }
+//         }
+//       },
+//       { $sort: { Umsatz: -1 } }
+//     ]);
+//     res.json(result);
+//   } catch (err) {
+//     console.error(err);
+//     res.status(500).send('Error retrieving data from MongoDB-umsatz/month');
+//   }
+// });
+
 
 
 
