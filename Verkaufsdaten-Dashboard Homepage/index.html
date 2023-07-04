@@ -15,7 +15,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hersteller<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="HECO.html"> HECO</a></li>
-          <li><a href="SWG.html">  SWG</a></li>
+          <li><a href="SWG.html"> SWG</a></li>
           <li><a href="Wuerth.html">Wuerth</a></li>
         </ul>
       </li>
@@ -24,99 +24,138 @@
       <input type="checkbox" id="switch" />
       <label for="switch"></label>
     </div>
-  </nav>  
+  </nav>
+  <!-- Ende Navigationsbar mit Darkmode Switch -->
 
-  <!-- Oberer Bereich -->
-  <!-- output evtl nummerieren?! um die ausgaben besser zu organisieren -->
+  <!-- Hauptteil Oben -->
   <div class="container">
-    <div class="box1">
-      <div id="output">:Zahl:</div>
-      <select onchange="updateOutput(this.value)">
-        <option value="umsatz_pro_schraubenart_pro_monat">Umsatz pro Schraubenart pro Monat</option>
-        <!-- weitere optionen im dropdown menü -->
-      </select>
-    </div>
-    <div class="box1">
-      <div id="output">:Zahl:</div>
-      <select onchange="updateOutput(this.value)">
-        <option value="am_meisten_verkaufte_schraubenart">Am meisten verkaufte Schraubenart</option>
-        <!-- weitere optionen im dropdown menü -->
-      </select>
-    </div>
-    <div class="box1">
-      <div id="output">:Zahl:</div>
-      <select onchange="updateOutput(this.value)">
-        <option value="umsatz_pro_schraubenart_pro_hersteller_pro_monat">Umsatz pro Schraubenart pro Hersteller pro
-          Monat</option>
-        <!-- weitere optionen im dropdown menü -->
-      </select>
-    </div>
-    <div class="box1">
-      <div id="output">:Zahl:</div>
-      <select onchange="updateOutput(this.value)">
-        <option value="gesamtumsatz_pro_hersteller_pro_monat">Gesamtumsatz pro Hersteller für einen Monat</option>
-        <!-- weitere optionen im dropdown menü -->
-      </select>
-    </div>
-  </div>
-
-  <!-- Mittelteil -->
-  <div class="box">
-    <div>
-      <canvas id="barchart"></canvas>
-    </div>
-    <div>
-      <canvas id="barchart2"></canvas>
-    </div>
-    <div>
-      <canvas id="barchart3"></canvas>
-    </div>
-    <div>
-      <canvas id="barchart4"></canvas>
-    </div>
-    <div>
-      <canvas id="barchart5"></canvas>
-    </div>
-    <div>
-      <canvas id="barchart6"></canvas>
-    </div>
-  </div>
-
-  <!-- Unterer Bereich -->
-  <div class="container_unten">
-    <div class="box_u_li">
-      <div>
-        <select onchange="updateChart(this)">
-          <option value="chart1">Chart 1</option>
-          <option value="chart2">Chart 2</option>
+    <div class="box">
+      <div style="justify-content: space-between;">
+        <select onchange="updateOutput(this.value)">
+          <option value="">Januar</option>
+          <option value="">Februar</option>
+          <option value="">März</option>
+          <option value="">April</option>
+          <option value="">Mai</option>
+          <option value="">Juni</option>
+          <option value="">Juli</option>
+          <option value="">August</option>
+          <option value="">September</option>
+          <option value="">Oktober</option>
+          <option value="">November</option>
+          <option value="">Dezember</option>
+        </select>
+        <select onchange="updateOutput(this.value)">
+          <option value="">Sechskantschraube</option>
+          <option value="">Holzschraube</option>
+          <option value="">Maschinenschraube</option>
+          <option value="">Universalschraube</option>
+          <option value="">Senkkopfschraube</option>
+          <option value="">Zylinderschraube</option>
+          <option value="">Betonschraube</option>
+          <option value="">Tellerkopfschraube</option>
         </select>
       </div>
-      <div id="chartContainer">
-        <!-- Hier wird der ausgewählte Chart angezeigt -->
-        <canvas id="selectedChart"></canvas>
-      </div>
+      Umsatz pro Schraubenart pro Monat: <div id="output1">:Zahl:</div>
     </div>
-    <div class="box_u_re">
-      <div>
-        <select onchange="updateManufacturer(this.value)">
-          <option value="Wuerth">Wuerth</option>
-          <option value="HECO">HECO</option>
-          <option value="SWG">SWG</option>
+
+    <div class="box">
+      <select onchange="updateOutput(this.value)">
+        <option value="">Sechskantschraube</option>
+        <option value="">Holzschraube</option>
+        <option value="">Maschinenschraube</option>
+        <option value="">Universalschraube</option>
+        <option value="">Senkkopfschraube</option>
+        <option value="">Zylinderschraube</option>
+        <option value="">Betonschraube</option>
+        <option value="">Tellerkopfschraube</option>
+      </select>
+      Am meisten verkaufte Schraubenart: <div id="output2">:Schraube:</div>
+    </div>
+    <div class="box">
+      <div style="justify-content: space-between;">
+        <select onchange="updateOutput(this.value)">
+          <option value="">Januar</option>
+          <option value="">Februar</option>
+          <option value="">März</option>
+          <option value="">April</option>
+          <option value="">Mai</option>
+          <option value="">Juni</option>
+          <option value="">Juli</option>
+          <option value="">August</option>
+          <option value="">September</option>
+          <option value="">Oktober</option>
+          <option value="">November</option>
+          <option value="">Dezember</option>
+        </select>
+        <select onchange="updateOutput(this.value)">
+          <option value="">HECO</option>
+          <option value="">SWG</option>
+          <option value="">Wuerth</option>
         </select>
       </div>
+      Gesamtumsatz pro Hersteller für einen Monat: <div id="output3">:Zahl:</div>
     </div>
   </div>
+    <!-- Ende Hauptteil Oben -->
+
+    <!-- Hauptteil Mitte -->
+    <div class="box1">
+      <div>
+        <canvas id="barchart"></canvas>
+      </div>
+      <div>
+        <canvas id="barchart2"></canvas>
+      </div>
+      <div>
+        <canvas id="barchart3"></canvas>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="chart4">
+        <canvas id="barchart4"></canvas>
+      </div>
+      <div class="chart5">
+        <canvas id="barchart5"></canvas>
+      </div>
+      <!-- Ende Hauptteil Mitte -->
+
+      <!-- Hauptteil Unten -->
+      <div class="container_unten">
+        <div class="box_u_li">
+          <div>
+            <select onchange="updateChart(this)">
+              <option value="chart1">Chart 1</option>
+              <option value="chart2">Chart 2</option>
+            </select>
+          </div>
+          <div id="chartContainer">
+            <!-- Hier wird der ausgewählte Chart angezeigt -->
+            <canvas id="selectedChart"></canvas>
+          </div>
+        </div>
+        <div class="box_u_re">
+          <div>
+            <select onchange="updateManufacturer(this.value)">
+              <option value="Wuerth">Wuerth</option>
+              <option value="HECO">HECO</option>
+              <option value="SWG">SWG</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Ende Hauptteil Unten -->
 
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
-  <script src="barchart.js"></script>
-  <script src="barchart2.js"></script>
-  <script src="barchart3.js"></script>
-  <script src="barchart4.js"></script>
-  <script src="barchart5.js"></script>
-  <script src="barchart6.js"></script>
-  <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
+      <script src="barchart.js"></script>
+      <script src="barchart2.js"></script>
+      <script src="barchart3.js"></script>
+      <script src="barchart4.js"></script>
+      <script src="barchart5.js"></script>
+      <script src="barchart6.js"></script>
+      <script src="script.js"></script>
 
 </body>
 
