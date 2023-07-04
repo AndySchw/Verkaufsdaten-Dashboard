@@ -1,20 +1,33 @@
 async function createChart() {
   // Fetch data from the server
-  const response = await fetch('http://localhost:3000/api/date');
+  const response = await fetch('http://localhost:3000/api/schrauben');
   const result = await response.json();
-  console.log(result)
+
+  // Calculate the total number of screws sold
+  let totalScrewsSold = 0;
+  result.forEach(schraube => {
+    totalScrewsSold += schraube.VerkaufteMenge;
+  });
+
+  // Calculate the number of screws sold by Hersteller X
+  let herstellerXScrewsSold = 0;
+  result.forEach(schraube => {
+    if (schraube.Hersteller === 'Hersteller X') {
+      herstellerXScrewsSold += schraube.VerkaufteMenge;
+    }
+  });
+
+  // Calculate the percentage of screws sold by Hersteller X
+  const herstellerXPercentage = (herstellerXScrewsSold / totalScrewsSold) * 100;
 
   // Convert data into Chart.js format
-  const labels = result.map(entry => entry._id);
-  const datasetData = result.map(entry => entry.VerkaufteMenge);
-
   const data = {
-    labels: labels,
+    labels: ['Hersteller X'],
     datasets: [{
-      label: 'Beste Tage/Verkäufe',
-      data: datasetData,
-      backgroundColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
-      borderColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
+      label: 'Prozentualer Anteil der Schraubenverkäufe von Hersteller X',
+      data: [herstellerXPercentage],
+      backgroundColor: ['rgba(54, 162, 235, 1)'],
+      borderColor: ['rgba(54, 162, 235, 1)'],
       borderWidth: 1
     }]
   };
