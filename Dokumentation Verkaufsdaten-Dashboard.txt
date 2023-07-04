@@ -1,0 +1,13 @@
+Arbeitsauftrag Dokumentation:
+
+Tag 1:
+
+Am ersten Tag haben wir die Struktur der Skript-Logik mithilfe von Figma erstellt. Zudem haben wir die Hausaufgabe gelöst und die ersten Balkendiagramme erstellt.
+
+Tag 2:
+
+Leider war Andy nicht anwesend. Wir haben uns stattdessen mit der Planung der Struktur des Frontends der Webseite beschäftigt und darüber diskutiert, wie alles angeordnet werden soll. Wir haben eine MongoDB-Datenbank eingerichtet und die JSON-Datei in die MongoDB hochgeladen. Anschließend haben wir begonnen, die Struktur der Webseite zu bearbeiten, um sie dann ins Frontend zu integrieren. Die Index.html war zu einem kleinen Teil fertiggestellt.
+
+Tag 3:
+
+Am dritten Tag haben wir weiter an der Webseite gearbeitet. Wir haben vier Div-Container von oben erstellt und mit Dropdown-Menüs versehen. Zudem haben wir die Diagramme erneut an die CSS-Datei angepasst. Wir haben ein Dropdown-Menü für die Herstellerauswahl hinzugefügt. Außerdem haben wir einen Darkmode für die Webseite implementiert, der umstellbar ist. Des Weiteren haben wir mit der Skript-Logik begonnen und sie für die Top 3 Schrauben, Top 3 Hersteller und den besten Verkaufstag insgesamt fertiggestellt. Im Footer-Bereich haben wir zwei Div-Boxen hinzugefügt und sie mit Dropdown-Menüs für Chart 1 bis 2 und die Herstellerauswahl versehen.
