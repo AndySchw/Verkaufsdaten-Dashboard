@@ -144,7 +144,10 @@ app.get('/api/verkaufswochentag', async (req, res) => {
 app.get('/api/prozent/:hersteller', async (req, res) => {
   try {
     const hersteller = req.params.hersteller;
-    const totalSales = await Schraube.aggregate([
+    const herstellerTotalSales = await Schraube.aggregate([
+      {
+        $match: { Hersteller: hersteller }
+      },
       {
         $group: {
           _id: null,
@@ -152,29 +155,33 @@ app.get('/api/prozent/:hersteller', async (req, res) => {
         }
       }
     ]);
-    const herstellerSales = await Schraube.aggregate([
+    const schraubeSales = await Schraube.aggregate([
       {
         $match: { Hersteller: hersteller }
       },
       {
         $group: {
-          _id: null,
-          herstellerSales: { $sum: '$VerkaufteMenge' }
+          _id: '$Schraube',
+          schraubeSales: { $sum: '$VerkaufteMenge' }
         }
       }
     ]);
 
-    if (herstellerSales.length > 0) {
-      const percentage = (herstellerSales[0].herstellerSales / totalSales[0].totalSales) * 100;
-      res.json({ hersteller, percentage });
+    if (herstellerTotalSales.length > 0) {
+      const percentages = schraubeSales.map(schraube => ({
+        schraube: schraube._id,
+        percentage: (schraube.schraubeSales / herstellerTotalSales[0].totalSales) * 100
+      }));
+      res.json({ hersteller, percentages });
     } else {
-      res.json({ hersteller, percentage: 0 });
+      res.json({ hersteller, percentages: [] });
     }
   } catch (err) {
     console.error(err);
     res.status(500).send('Error retrieving data from MongoDB');
   }
 });
+
 
 
 
