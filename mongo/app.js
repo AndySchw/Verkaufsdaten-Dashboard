@@ -63,7 +63,7 @@ app.get('/api/schrauben', async (req, res) => {
   }
 });
 
-//top3schrauben/verkauf
+//top3schrauben/verkauf-barchart
 app.get('/api/top3', async (req, res) => {
   try {
     const result = await Schraube.aggregate([
@@ -83,7 +83,7 @@ app.get('/api/top3', async (req, res) => {
   }
 });
 
-//top3hersteller/verkauf
+//top3hersteller/verkauf-barchart2
 app.get('/api/hersteller', async (req, res) => {
   try {
     const result = await Schraube.aggregate([
@@ -102,7 +102,7 @@ app.get('/api/hersteller', async (req, res) => {
   }
 });
 
-//verkaufszahlen/tag
+//verkaufszahlen/tag-barchart3
 app.get('/api/date', async (req, res) => {
   try {
     const result = await Schraube.aggregate([
@@ -122,7 +122,7 @@ app.get('/api/date', async (req, res) => {
   }
 });
 
-//verkaufswochentag-durchschnittlich bester verkaufstag pro woche.
+//verkaufswochentag-durchschnittlich-bester-verkaufstag-pro-woche-barchart4
 app.get('/api/verkaufswochentag', async (req, res) => {
   try {
     const result = await Schraube.aggregate([
@@ -137,9 +137,40 @@ app.get('/api/verkaufswochentag', async (req, res) => {
     res.json(result);
   } catch (err) {
     console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB-verkaufswochentag');
+  }
+});
+
+app.get('/api/prozent/:hersteller', async (req, res) => {
+  try {
+    const hersteller = req.params.hersteller;
+    const totalSales = await Schraube.aggregate([
+      {
+        $group: {
+          _id: null,
+          totalSales: { $sum: '$VerkaufteMenge' }
+        }
+      }
+    ]);
+    const herstellerSales = await Schraube.aggregate([
+      {
+        $match: { Hersteller: hersteller }
+      },
+      {
+        $group: {
+          _id: null,
+          herstellerSales: { $sum: '$VerkaufteMenge' }
+        }
+      }
+    ]);
+    const percentage = (herstellerSales[0].herstellerSales / totalSales[0].totalSales) * 100;
+    res.json({ hersteller, percentage });
+  } catch (err) {
+    console.error(err);
     res.status(500).send('Error retrieving data from MongoDB');
   }
 });
+
 
 
 // //verkaufswochentag-durchschnittlich bester verkaufstag pro woche.  

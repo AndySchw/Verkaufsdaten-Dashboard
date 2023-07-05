@@ -1,31 +1,17 @@
-async function createChart() {
+async function createChart5(hersteller) {
   // Fetch data from the server
-  const response = await fetch('http://localhost:3000/api/schrauben');
+  const response = await fetch(`http://localhost:3000/api/prozent/${hersteller}`);
   const result = await response.json();
 
-  // Calculate the total number of screws sold
-  let totalScrewsSold = 0;
-  result.forEach(schraube => {
-    totalScrewsSold += schraube.VerkaufteMenge;
-  });
-
-  // Calculate the number of screws sold by Hersteller X
-  let herstellerXScrewsSold = 0;
-  result.forEach(schraube => {
-    if (schraube.Hersteller === 'Hersteller X') {
-      herstellerXScrewsSold += schraube.VerkaufteMenge;
-    }
-  });
-
-  // Calculate the percentage of screws sold by Hersteller X
-  const herstellerXPercentage = (herstellerXScrewsSold / totalScrewsSold) * 100;
-
   // Convert data into Chart.js format
+  const labels = [result.hersteller];
+  const datasetData = [result.percentage];
+
   const data = {
-    labels: ['Hersteller X'],
+    labels: labels,
     datasets: [{
-      label: 'Prozentualer Anteil der Schraubenverkäufe von Hersteller X',
-      data: [herstellerXPercentage],
+      label: 'Sales Percentage',
+      data: datasetData,
       backgroundColor: ['rgba(54, 162, 235, 1)'],
       borderColor: ['rgba(54, 162, 235, 1)'],
       borderWidth: 1
@@ -36,7 +22,7 @@ async function createChart() {
   new Chart(
     document.getElementById('barchart5'),
     {
-      type: "doughnut",
+      type: "bar",
       data: data,
       options: {
         scales: {
@@ -48,5 +34,3 @@ async function createChart() {
     }
   );
 }
-
-createChart();
