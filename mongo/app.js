@@ -236,6 +236,7 @@ app.get('/api/prozent/:hersteller', async (req, res) => {
 //   }
 // });
 
+// Abfrage Umsatz pro Schraubenart pro Hersteller
 app.get('/api/verkaufswerte/:hersteller/:schraube', async (req, res) => {
   try {
     const hersteller = req.params.hersteller;
@@ -265,4 +266,58 @@ app.get('/api/verkaufswerte/:hersteller/:schraube', async (req, res) => {
 
 app.listen(3000, () => {
   console.log('Server started on port 3000');
+});
+
+// Abfrage am meisten verkaufte Schraubenart pro Hersteller
+app.get('/api/topschraube/:hersteller', async (req, res) => {
+  try {
+    const hersteller = req.params.hersteller;
+    const result = await Schraube.aggregate([
+      {
+        $match: {
+          Hersteller: hersteller
+        }
+      },
+      {
+        $group: {
+          _id: '$Schraube',
+          VerkaufteMenge: { $sum: '$VerkaufteMenge' }
+        }
+      },
+      { $sort: { VerkaufteMenge: -1 } },
+      { $limit: 1 }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB');
+  }
+});
+
+
+// Abfrage Gesamtumsatz pro Hersteller für einen Monat
+app.get('/api/gesamtumsatz/:hersteller', async (req, res) => {
+  try {
+    const hersteller = req.params.hersteller;
+    const startDatum = new Date('2023-06-01');
+    const endDatum = new Date('2023-06-30');
+    const result = await Schraube.aggregate([
+      {
+        $match: {
+          Hersteller: hersteller,
+          Datum: { $gte: startDatum, $lte: endDatum }
+        }
+      },
+      {
+        $group: {
+          _id: null,
+          GesamtUmsatz: { $sum: { $multiply: ['$Preis', '$VerkaufteMenge'] } }
+        }
+      }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB');
+  }
 });

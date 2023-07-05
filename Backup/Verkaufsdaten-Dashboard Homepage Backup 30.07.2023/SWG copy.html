@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Chart.js Techstarter Aufgabe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigationsbar mit Darkmode Switch -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hersteller<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="HECO.html"> HECO</a></li>
+          <li><a href="SWG.html">  SWG</a></li>
+          <li><a href="Wuerth.html">Wuerth</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="switch-container">
+      <input type="checkbox" id="switch" />
+      <label for="switch"></label>
+    </div>
+  </nav>  
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="Logo SWG.jpg" alt="Wuerth-Logo">
+  </div>
+
+  <div class="swg">
+    <div>
+      <canvas id="barchart2"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart3"></canvas>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
+  <script src="barchart.js"></script>
+  <script src="barchart2.js"></script>
+  <script src="barchart3.js"></script>
+  <script src="barchart4.js"></script>
+  <script src="barchart5.js"></script>
+  <script src="barchart6.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
