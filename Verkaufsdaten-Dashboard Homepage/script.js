@@ -82,15 +82,14 @@ switchToggle.addEventListener("change", () => {
 //     }
 //   }
   
-
 async function updateOutput() {
-  const monatSelect = document.getElementById('monatSelect');
+  const herstellerSelect = document.getElementById('herstellerSelect');
   const schraubeSelect = document.getElementById('schraubeSelect');
   const output1 = document.getElementById('output1');
-  const monat = monatSelect.value;
+  const hersteller = herstellerSelect.value;
   const schraube = schraubeSelect.value;
-  if (monat && schraube) {
-    const response = await fetch(`http://localhost:3000/api/verkaufswerte/${monat}/${schraube}`);
+  if (hersteller && schraube) {
+    const response = await fetch(`http://localhost:3000/api/verkaufswerte/${hersteller}/${schraube}`);
     const data = await response.json();
     if (data.length > 0) {
       output1.textContent = data[0].GesamtVerkaufswert;

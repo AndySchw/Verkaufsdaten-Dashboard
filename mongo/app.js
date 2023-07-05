@@ -230,17 +230,15 @@ app.get('/api/prozent/:hersteller', async (req, res) => {
 //   }
 // });
 
-app.get('/api/verkaufswerte/:monat/:schraube', async (req, res) => {
+app.get('/api/verkaufswerte/:hersteller/:schraube', async (req, res) => {
   try {
-    const monat = req.params.monat;
+    const hersteller = req.params.hersteller;
     const schraube = req.params.schraube;
-    const startDatum = new Date(monat);
-    const endDatum = new Date(startDatum.getFullYear(), startDatum.getMonth() + 1, 0);
     const result = await Schraube.aggregate([
       {
         $match: {
-          Schraube: schraube,
-          Datum: { $gte: startDatum, $lte: endDatum }
+          Hersteller: hersteller,
+          Schraube: schraube
         }
       },
       {
