@@ -1,0 +1,29 @@
+hellgrün
+RGB: 0, 255, 0
+
+hellblau
+RGB: 0, 170, 255
+
+rot
+RGB: 255, 0, 0
+
+gelb
+RGB: 255, 255, 0
+
+orange
+RGB: 255, 170, 0
+
+violet
+RGB: 170, 85, 255
+
+braun
+RGB: 170, 85, 0
+
+rosa
+RGB: 245, 163, 245
+
+dunkelgrün
+RGB: 0, 170, 0
+
+blau
+RGB: 0, 0, 255
