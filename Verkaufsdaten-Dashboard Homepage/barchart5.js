@@ -1,3 +1,6 @@
+// Create the initial chart
+let chart5;
+
 async function createChart5(hersteller) {
   // Fetch data from the server
   const response = await fetch(`http://localhost:3000/api/prozent/${hersteller}`);
@@ -18,29 +21,33 @@ async function createChart5(hersteller) {
     }]
   };
 
-  // Create Chart.js chart
-  new Chart(
-    document.getElementById('barchart5'),
-    {
-      type: "bar",
-      data: data,
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
+  // Check if chart5 already exists
+  if (chart5) {
+    // Update the chart data
+    chart5.data = data;
+    chart5.update();
+  } else {
+    // Create a new Chart.js chart
+    chart5 = new Chart(
+      document.getElementById('barchart5'),
+      {
+        type: "bar",
+        data: data,
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
           }
-        }
-      },
-    }
-  );
+        },
+      }
+    );
+  }
 }
 
 // Create a dropdown menu to select a manufacturer
 const herstellerSelect = document.createElement('select');
 herstellerSelect.id = 'herstellerSelect';
-herstellerSelect.addEventListener('change', () => {
-  createChart5(herstellerSelect.value);
-});
 
 // Add options to the dropdown menu
 const herstellerOptions = ['Wuerth', 'HECO', 'SWG']; 
@@ -51,8 +58,13 @@ herstellerOptions.forEach((hersteller) => {
   herstellerSelect.appendChild(option);
 });
 
+// Add an event listener to the dropdown menu
+herstellerSelect.addEventListener('change', () => {
+  createChart5(herstellerSelect.value);
+});
+
 // Add the dropdown menu to the page
 document.body.appendChild(herstellerSelect);
 
-// Create the chart with the initially selected manufacturer
+// Create the initial chart with the initially selected manufacturer
 createChart5(herstellerSelect.value);
