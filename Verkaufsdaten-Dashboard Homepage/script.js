@@ -21,64 +21,83 @@ switchToggle.addEventListener("change", () => {
   }
 });
 
-// Chart-Daten für barchart
-const barchartData = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May"],
-    datasets: [{
-      label: 'Dataset 1',
-      data: [10, 20, 30, 40, 50],
-      backgroundColor: 'rgba(255, 99, 132, 0.2)',
-      borderColor: 'rgb(255, 99, 132)',
-      borderWidth: 1
-    }]
-  };
+// // Chart-Daten für barchart
+// const barchartData = {
+//     labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+//     datasets: [{
+//       label: 'Dataset 1',
+//       data: [10, 20, 30, 40, 50],
+//       backgroundColor: 'rgba(255, 99, 132, 0.2)',
+//       borderColor: 'rgb(255, 99, 132)',
+//       borderWidth: 1
+//     }]
+//   };
   
-  // Chart-Daten für barchart2
-  const barchart2Data = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May"],
-    datasets: [{
-      label: 'Dataset 2',
-      data: [5, 15, 25, 35, 45],
-      backgroundColor: 'rgba(54, 162, 235, 0.2)',
-      borderColor: 'rgb(54, 162, 235)',
-      borderWidth: 1
-    }]
-  };
+//   // Chart-Daten für barchart2
+//   const barchart2Data = {
+//     labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+//     datasets: [{
+//       label: 'Dataset 2',
+//       data: [5, 15, 25, 35, 45],
+//       backgroundColor: 'rgba(54, 162, 235, 0.2)',
+//       borderColor: 'rgb(54, 162, 235)',
+//       borderWidth: 1
+//     }]
+//   };
   
-  // Funktion zur Aktualisierung des ausgewählten Charts
-  function updateChart(selectElement) {
-    var chartId = selectElement.value;
+//   // Funktion zur Aktualisierung des ausgewählten Charts
+//   function updateChart(selectElement) {
+//     var chartId = selectElement.value;
   
-    var selectedChartCanvas = document.getElementById('selectedChart');
-    selectedChartCanvas.innerHTML = '';
+//     var selectedChartCanvas = document.getElementById('selectedChart');
+//     selectedChartCanvas.innerHTML = '';
   
-    // Überprüfet die ausgewählte Chart-ID und aktualisiert das Canvas entsprechend
-    if (chartId === 'barchart') {
-      selectedChartCanvas.innerHTML = '<canvas id="selectedChart"></canvas>';
-      new Chart(selectedChartCanvas.childNodes[0], {
-        type: 'line', // Ändert den Chart-Typ auf 'line'
-        data: barchartData,
-        options: {
-          scales: {
-            y: {
-              beginAtZero: true
-            }
-          }
-        }
-      });
-    } else if (chartId === 'barchart2') {
-      selectedChartCanvas.innerHTML = '<canvas id="selectedChart"></canvas>';
-      new Chart(selectedChartCanvas.childNodes[0], {
-        type: 'line', // Ändert den Chart-Typ auf 'line'
-        data: barchart2Data,
-        options: {
-          scales: {
-            y: {
-              beginAtZero: true
-            }
-          }
-        }
-      });
+//     // Überprüfet die ausgewählte Chart-ID und aktualisiert das Canvas entsprechend
+//     if (chartId === 'barchart') {
+//       selectedChartCanvas.innerHTML = '<canvas id="selectedChart"></canvas>';
+//       new Chart(selectedChartCanvas.childNodes[0], {
+//         type: 'line', // Ändert den Chart-Typ auf 'line'
+//         data: barchartData,
+//         options: {
+//           scales: {
+//             y: {
+//               beginAtZero: true
+//             }
+//           }
+//         }
+//       });
+//     } else if (chartId === 'barchart2') {
+//       selectedChartCanvas.innerHTML = '<canvas id="selectedChart"></canvas>';
+//       new Chart(selectedChartCanvas.childNodes[0], {
+//         type: 'line', // Ändert den Chart-Typ auf 'line'
+//         data: barchart2Data,
+//         options: {
+//           scales: {
+//             y: {
+//               beginAtZero: true
+//             }
+//           }
+//         }
+//       });
+//     }
+//   }
+  
+
+async function updateOutput() {
+  const monatSelect = document.getElementById('monatSelect');
+  const schraubeSelect = document.getElementById('schraubeSelect');
+  const output1 = document.getElementById('output1');
+  const monat = monatSelect.value;
+  const schraube = schraubeSelect.value;
+  if (monat && schraube) {
+    const response = await fetch(`http://localhost:3000/api/verkaufswerte/${monat}/${schraube}`);
+    const data = await response.json();
+    if (data.length > 0) {
+      output1.textContent = data[0].GesamtVerkaufswert;
+    } else {
+      output1.textContent = 'Keine Daten gefunden';
     }
+  } else {
+    output1.textContent = '';
   }
-  
+}

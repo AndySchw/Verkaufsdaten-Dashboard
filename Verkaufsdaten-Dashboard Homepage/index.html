@@ -31,32 +31,33 @@
   <div class="container">
     <div class="box">
       <div style="justify-content: space-between;">
-        <select onchange="updateOutput(this.value)">
-          <option value="">Januar</option>
-          <option value="">Februar</option>
-          <option value="">März</option>
-          <option value="">April</option>
-          <option value="">Mai</option>
-          <option value="">Juni</option>
-          <option value="">Juli</option>
-          <option value="">August</option>
-          <option value="">September</option>
-          <option value="">Oktober</option>
-          <option value="">November</option>
-          <option value="">Dezember</option>
+        <select id="monatSelect" onchange="updateOutput()">
+          <option value="2023-01">Januar</option>
+          <option value="2023-02">Februar</option>
+          <option value="2023-03">März</option>
+          <option value="2023-04">April</option>
+          <option value="2023-05">Mai</option>
+          <option value="2023-06">Juni</option>
+          <option value="2023-07">Juli</option>
+          <option value="2023-08">August</option>
+          <option value="2023-09">September</option>
+          <option value="2023-10">Oktober</option>
+          <option value="2023-11">November</option>
+          <option value="2023-12">Dezember</option>
+        </select>        
+        <select id="schraubeSelect" onchange="updateOutput()">
+          <option value="Sechskantschraube">Sechskantschraube</option>
+          <option value="Holzschraube">Holzschraube</option>
+          <option value="Maschinenschraube">Maschinenschraube</option>
+          <option value="Universalschraube">Universalschraube</option>
+          <option value="Senkkopfschraube">Senkkopfschraube</option>
+          <option value="Zylinderschraube">Zylinderschraube</option>
+          <option value="Betonschraube">Betonschraube</option>
+          <option value="Tellerkopfschraube">Tellerkopfschraube</option>
         </select>
-        <select onchange="updateOutput(this.value)">
-          <option value="">Sechskantschraube</option>
-          <option value="">Holzschraube</option>
-          <option value="">Maschinenschraube</option>
-          <option value="">Universalschraube</option>
-          <option value="">Senkkopfschraube</option>
-          <option value="">Zylinderschraube</option>
-          <option value="">Betonschraube</option>
-          <option value="">Tellerkopfschraube</option>
-        </select>
+        
       </div>
-      Umsatz pro Schraubenart pro Monat: <div id="output1">:Zahl:</div>
+      Umsatz pro Schraubenart pro Monat: <div id="output1"></div>$
     </div>
 
     <div class="box">

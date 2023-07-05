@@ -22,28 +22,28 @@ const Schraube = mongoose.model('Schraube', SchraubeSchema);
 
 // Connect to MongoDB
 mongoose.connect("mongodb+srv://christiangruender:8fBQzZdDlLX1kBE4@cluster0.xhnylat.mongodb.net/schrauben24?retryWrites=true&w=majority",
- { useNewUrlParser: true, useUnifiedTopology: true })
-.then(async () => {
-  console.log('MongoDB connected...');
+  { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(async () => {
+    console.log('MongoDB connected...');
 
-  // Read the JSON file
-  const data = JSON.parse(fs.readFileSync('output.json', 'utf8'));
+    // Read the JSON file
+    const data = JSON.parse(fs.readFileSync('output.json', 'utf8'));
 
-  // Insert new data into MongoDB
-  await Promise.all(data.map(async (entry) => {
-    const existingDocument = await Schraube.findOne({
-      Hersteller: entry.Hersteller,
-      Schraube: entry.Schraube,
-      Datum: entry.Datum
-    });
-    if (!existingDocument) {
-      await Schraube.create(entry);
-    }
-  }));
+    // Insert new data into MongoDB
+    await Promise.all(data.map(async (entry) => {
+      const existingDocument = await Schraube.findOne({
+        Hersteller: entry.Hersteller,
+        Schraube: entry.Schraube,
+        Datum: entry.Datum
+      });
+      if (!existingDocument) {
+        await Schraube.create(entry);
+      }
+    }));
 
-  console.log('Data inserted successfully');
-})
-.catch(err => console.log(err));
+    console.log('Data inserted successfully');
+  })
+  .catch(err => console.log(err));
 
 
 
@@ -230,6 +230,32 @@ app.get('/api/prozent/:hersteller', async (req, res) => {
 //   }
 // });
 
+app.get('/api/verkaufswerte/:monat/:schraube', async (req, res) => {
+  try {
+    const monat = req.params.monat;
+    const schraube = req.params.schraube;
+    const startDatum = new Date(monat);
+    const endDatum = new Date(startDatum.getFullYear(), startDatum.getMonth() + 1, 0);
+    const result = await Schraube.aggregate([
+      {
+        $match: {
+          Schraube: schraube,
+          Datum: { $gte: startDatum, $lte: endDatum }
+        }
+      },
+      {
+        $group: {
+          _id: null,
+          GesamtVerkaufswert: { $sum: { $multiply: ['$Preis', '$VerkaufteMenge'] } }
+        }
+      }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB');
+  }
+});
 
 
 
