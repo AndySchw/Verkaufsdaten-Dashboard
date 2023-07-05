@@ -5,7 +5,7 @@ async function createChart() {
   console.log(result)
 
   // Convert data into Chart.js format
-  const labels = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const labels = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
   const datasetData = result.map(entry => entry.avgSales);
 
   const data = {
