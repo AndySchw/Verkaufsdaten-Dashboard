@@ -215,7 +215,7 @@ input[type="checkbox"]:checked+label:before {
 /* Ende Hauptteil Mitte */
 
 /* Hauptteil Unten */
-.container_unten {
+/* .container_unten {
     display: flex;
     justify-content: space-between;
 }
@@ -228,7 +228,7 @@ input[type="checkbox"]:checked+label:before {
 .box_u_re {
     width: 49%;
     border: 2px solid black;
-}
+} */
 /* Ende Hauptteil Unten */
 
 /* barchart Hintergrund Designs */
@@ -263,7 +263,6 @@ input[type="checkbox"]:checked+label:before {
 }
 
 /* Ende barchart Hintergrund Designs */
-/* Ende Hauptteil Mitte */
 
 /* Ende Hauptteil */
 
