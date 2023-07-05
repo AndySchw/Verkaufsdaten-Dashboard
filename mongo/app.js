@@ -163,13 +163,19 @@ app.get('/api/prozent/:hersteller', async (req, res) => {
         }
       }
     ]);
-    const percentage = (herstellerSales[0].herstellerSales / totalSales[0].totalSales) * 100;
-    res.json({ hersteller, percentage });
+
+    if (herstellerSales.length > 0) {
+      const percentage = (herstellerSales[0].herstellerSales / totalSales[0].totalSales) * 100;
+      res.json({ hersteller, percentage });
+    } else {
+      res.json({ hersteller, percentage: 0 });
+    }
   } catch (err) {
     console.error(err);
     res.status(500).send('Error retrieving data from MongoDB');
   }
 });
+
 
 
 
