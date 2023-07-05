@@ -63,8 +63,11 @@ herstellerSelect.addEventListener('change', () => {
   createChart5(herstellerSelect.value);
 });
 
-// Add the dropdown menu to the page
-document.body.appendChild(herstellerSelect);
+// Get the chart5 div element
+const chart5Div = document.querySelector('.chart5');
+
+// Insert the dropdown menu above the chart
+chart5Div.insertBefore(herstellerSelect, chart5Div.firstChild);
 
 // Create the initial chart with the initially selected manufacturer
 createChart5(herstellerSelect.value);
