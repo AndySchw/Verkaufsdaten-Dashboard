@@ -14,8 +14,8 @@ async function createChart() {
       label: 'Beste Tage/Verkäufe',
       data: datasetData,
       backgroundColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
-      borderColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
-      borderWidth: 1
+      borderColor: ['RGBA(0, 0, 0, 1)', 'RGBA(0, 0, 0, 1)', 'RGBA(0, 0, 0, 1)'],
+      borderWidth: 2
     }]
   };
 
