@@ -4,8 +4,8 @@ async function createChart5(hersteller) {
   const result = await response.json();
 
   // Convert data into Chart.js format
-  const labels = [result.hersteller];
-  const datasetData = [result.percentage];
+  const labels = result.percentages.map(schraube => schraube.schraube);
+  const datasetData = result.percentages.map(schraube => schraube.percentage);
 
   const data = {
     labels: labels,
