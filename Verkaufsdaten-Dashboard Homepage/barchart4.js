@@ -13,12 +13,34 @@ async function createChart() {
     datasets: [{
       label: 'Durchschnittlicher Verkauf pro Wochentag',
       data: datasetData,
-      backgroundColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
-      borderColor: ['rgba(54, 162, 235, 1)', 'rgba(255, 99, 132, 1)', 'rgba(75, 192, 192, 1)'],
-      borderWidth: 1
-    }]
+      backgroundColor: [
+          'rgba(0, 255, 0)',
+          'rgba(255, 99, 132, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(125, 200, 50, 1)',
+          'rgba(200, 100, 150, 1)',
+          'rgba(230, 150, 20, 1)',
+          'rgba(50, 150, 200, 1)',
+          'rgba(180, 60, 230, 1)',
+          'rgba(100, 100, 100, 1)',
+          'rgba(255, 255, 0, 1)'
+        ],
+        borderColor: [
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 99, 132, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(125, 200, 50, 1)',
+          'rgba(200, 100, 150, 1)',
+          'rgba(230, 150, 20, 1)',
+          'rgba(50, 150, 200, 1)',
+          'rgba(180, 60, 230, 1)',
+          'rgba(100, 100, 100, 1)',
+          'rgba(255, 255, 0, 1)'
+        ],
+        borderWidth: 1
+      }
+    ]
   };
-
 // Create Chart.js chart
 new Chart(
     document.getElementById('barchart4'),
