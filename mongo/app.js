@@ -198,7 +198,33 @@ app.get('/api/prozent/:hersteller', async (req, res) => {
   }
 });
 
-
+// Umsatz, Menge und Trends für jeden Hersteller
+app.get('/api/hersteller/:name', async (req, res) => {
+  const { name } = req.params;
+  try {
+    const result = await Schraube.aggregate([
+      {
+        $match: {
+          Hersteller: name
+        }
+      },
+      {
+        $group: {
+          _id: { $dateToString: { format: "%Y-%m", date: "$Datum" } },
+          Umsatz: { $sum: { $multiply: ["$Preis", "$VerkaufteMenge"] } },
+          Menge: { $sum: "$VerkaufteMenge" }
+        }
+      },
+      {
+        $sort: { _id: 1 }
+      }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB for Hersteller');
+  }
+});
 
 
 
