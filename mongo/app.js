@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const express = require('express');
 const cors = require('cors');
 const app = express();
+const { DateTime } = require('luxon');
 
 //max fragen ob mit cors? .. 
 app.use(cors());
@@ -108,19 +109,34 @@ app.get('/api/date', async (req, res) => {
     const result = await Schraube.aggregate([
       {
         $group: {
-          _id: '$Datum',
+          _id: {
+            year: { $year: '$Datum' },
+            month: { $month: '$Datum' },
+            day: { $dayOfMonth: '$Datum' }
+          },
           VerkaufteMenge: { $sum: '$VerkaufteMenge' }
         }
       },
       { $sort: { VerkaufteMenge: -1 } },
       { $limit: 3 }
     ]);
-    res.json(result);
+
+    const formattedResults = result.map((item) => ({
+      _id: DateTime.fromObject({
+        year: item._id.year,
+        month: item._id.month,
+        day: item._id.day
+      }).toFormat('yyyy-MM-dd'),
+      VerkaufteMenge: item.VerkaufteMenge
+    }));
+
+    res.json(formattedResults);
   } catch (err) {
     console.error(err);
     res.status(500).send('Error retrieving data from MongoDB-verkaufszahlen/tag');
   }
 });
+
 
 //verkaufswochentag-durchschnittlich-bester-verkaufstag-pro-woche-barchart4
 app.get('/api/verkaufswochentag', async (req, res) => {
