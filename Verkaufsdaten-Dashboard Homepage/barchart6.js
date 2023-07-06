@@ -14,16 +14,20 @@ async function createChart() {
       {
         label: 'Umsatz',
         data: datasetData,
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
-        borderWidth: 1
+        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        borderColor: 'rgba(0, 0, 0, 0.5)',
+        borderWidth: 2,
+        hoverBackgroundColor: 'rgba(255, 99, 132, 1)',
+        hoverBorderColor: 'rgba(0, 0, 0, 1)'
       },
       {
         label: 'Menge',
         data: quantityData,
-        backgroundColor: 'rgba(255, 99, 132, 0.2)',
-        borderColor: 'rgba(255, 99, 132, 1)',
-        borderWidth: 1
+        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+        borderColor: 'rgba(0, 0, 0, 0.5)',
+        borderWidth: 2,
+        hoverBackgroundColor: 'rgba(54, 162, 235, 1)',
+        hoverBorderColor: 'rgba(0, 0, 0, 1)'
       }
     ]
   };
