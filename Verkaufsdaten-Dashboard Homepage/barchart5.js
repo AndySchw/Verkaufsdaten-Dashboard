@@ -9,6 +9,7 @@ async function createChart5(hersteller) {
   // Convert data into Chart.js format
   const labels = result.percentages.map(schraube => schraube.schraube);
   const datasetData = result.percentages.map(schraube => schraube.percentage);
+  const minValue = Math.min(...datasetData) * 0.95;
 
   const data = {
     labels: labels,
@@ -83,7 +84,7 @@ async function createChart5(hersteller) {
         options: {
           scales: {
             y: {
-              beginAtZero: true
+              min: minValue
             }
           }
         },

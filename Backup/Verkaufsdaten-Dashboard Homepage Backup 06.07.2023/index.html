@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Chart.js Techstarter Aufgabe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigationsbar mit Darkmode Switch -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Dashboard</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hersteller<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="HECO.html"> HECO</a></li>
+          <li><a href="SWG.html"> SWG</a></li>
+          <li><a href="Wuerth.html">Wuerth</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="switch-container">
+      <input type="checkbox" id="switch" />
+      <label for="switch"></label>
+    </div>
+  </nav>
+  <!-- Ende Navigationsbar mit Darkmode Switch -->
+
+  <!-- Hauptteil Oben -->
+  <div class="container">
+    <div class="box">
+      <div style="justify-content: space-between;">
+        <select id="herstellerSelect" onchange="updateOutput()">
+          <option value="#">Bitte Auswählen</option>
+          <option value="HECO">HECO</option>
+          <option value="SWG">SWG</option>
+          <option value="Wuerth">Wuerth</option>
+        </select>
+        <select id="schraubeSelect" onchange="updateOutput()">
+          <option value="#">Bitte Auswählen</option>
+          <option value="Sechskantschraube">Sechskantschraube</option>
+          <option value="Holzschraube">Holzschraube</option>
+          <option value="Maschinenschraube">Maschinenschraube</option>
+          <option value="Universalschraube">Universalschraube</option>
+          <option value="Senkkopfschraube">Senkkopfschraube</option>
+          <option value="Zylinderschraube">Zylinderschraube</option>
+          <option value="Betonschraube">Betonschraube</option>
+          <option value="Tellerkopfschraube">Tellerkopfschraube</option>
+        </select>
+
+      </div>
+      Umsatz pro Schraubenart pro Hersteller: <div id="output1"></div>
+    </div>
+
+    <div class="box">
+      <select onchange="updateOutput2(this.value)">
+        <option value="#">Bitte Auswählen</option>
+        <option value="HECO">HECO</option>
+        <option value="SWG">SWG</option>
+        <option value="Wuerth">Wuerth</option>
+      </select>
+      Am meisten verkaufte Schraubenart pro Hersteller: <div id="output2"></div>
+    </div>
+
+    <div class="box">
+      <div style="justify-content: space-between;">
+        <select onchange="updateOutput3(this.value)">
+          <option value="#">Bitte Auswählen</option>
+          <option value="HECO">HECO</option>
+          <option value="SWG">SWG</option>
+          <option value="Wuerth">Wuerth</option>
+        </select>
+      </div>
+      Gesamtumsatz pro Hersteller für einen Monat: <div id="output3"></div>
+    </div>
+  </div>
+  <!-- Ende Hauptteil Oben -->
+
+  <!-- Hauptteil Mitte -->
+  <div class="box1">
+    <div>
+      <canvas id="barchart"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart2"></canvas>
+    </div>
+    <div>
+      <canvas id="barchart3"></canvas>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="chart4">
+      <canvas id="barchart4"></canvas>
+    </div>
+    <div class="chart5">
+      <canvas id="barchart5"></canvas>
+    </div>
+    <!-- Ende Hauptteil Mitte -->
+
+    <!-- Hauptteil Unten -->
+    <!-- Platz für mehr :) -->
+    <!-- Ende Hauptteil Unten -->
+
+
+    <script src="path/to/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
+    <script src="barchart.js"></script>
+    <script src="barchart2.js"></script>
+    <script src="barchart3.js"></script>
+    <script src="barchart4.js"></script>
+    <script src="barchart5.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

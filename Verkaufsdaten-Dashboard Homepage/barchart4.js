@@ -62,7 +62,7 @@ async function createChart() {
         'RGBA(0, 0, 0, 1)',
         'RGBA(0, 0, 0, 1)'
       ],
-      hoverBorderWidth: 2
+      hoverBorderWidth: 1
       }
     ]
   };

@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const express = require('express');
 const cors = require('cors');
 const app = express();
+const { DateTime } = require('luxon');
 
 //max fragen ob mit cors? .. 
 app.use(cors());
@@ -108,19 +109,34 @@ app.get('/api/date', async (req, res) => {
     const result = await Schraube.aggregate([
       {
         $group: {
-          _id: '$Datum',
+          _id: {
+            year: { $year: '$Datum' },
+            month: { $month: '$Datum' },
+            day: { $dayOfMonth: '$Datum' }
+          },
           VerkaufteMenge: { $sum: '$VerkaufteMenge' }
         }
       },
       { $sort: { VerkaufteMenge: -1 } },
       { $limit: 3 }
     ]);
-    res.json(result);
+
+    const formattedResults = result.map((item) => ({
+      _id: DateTime.fromObject({
+        year: item._id.year,
+        month: item._id.month,
+        day: item._id.day
+      }).toFormat('yyyy-MM-dd'),
+      VerkaufteMenge: item.VerkaufteMenge
+    }));
+
+    res.json(formattedResults);
   } catch (err) {
     console.error(err);
     res.status(500).send('Error retrieving data from MongoDB-verkaufszahlen/tag');
   }
 });
+
 
 //verkaufswochentag-durchschnittlich-bester-verkaufstag-pro-woche-barchart4
 app.get('/api/verkaufswochentag', async (req, res) => {
@@ -144,7 +160,10 @@ app.get('/api/verkaufswochentag', async (req, res) => {
 app.get('/api/prozent/:hersteller', async (req, res) => {
   try {
     const hersteller = req.params.hersteller;
-    const totalSales = await Schraube.aggregate([
+    const herstellerTotalSales = await Schraube.aggregate([
+      {
+        $match: { Hersteller: hersteller }
+      },
       {
         $group: {
           _id: null,
@@ -152,22 +171,58 @@ app.get('/api/prozent/:hersteller', async (req, res) => {
         }
       }
     ]);
-    const herstellerSales = await Schraube.aggregate([
+    const schraubeSales = await Schraube.aggregate([
       {
         $match: { Hersteller: hersteller }
       },
       {
         $group: {
-          _id: null,
-          herstellerSales: { $sum: '$VerkaufteMenge' }
+          _id: '$Schraube',
+          schraubeSales: { $sum: '$VerkaufteMenge' }
         }
       }
     ]);
-    const percentage = (herstellerSales[0].herstellerSales / totalSales[0].totalSales) * 100;
-    res.json({ hersteller, percentage });
+
+    if (herstellerTotalSales.length > 0) {
+      const percentages = schraubeSales.map(schraube => ({
+        schraube: schraube._id,
+        percentage: (schraube.schraubeSales / herstellerTotalSales[0].totalSales) * 100
+      }));
+      res.json({ hersteller, percentages });
+    } else {
+      res.json({ hersteller, percentages: [] });
+    }
   } catch (err) {
     console.error(err);
     res.status(500).send('Error retrieving data from MongoDB');
+  }
+});
+
+// Umsatz, Menge und Trends für jeden Hersteller
+app.get('/api/hersteller/:name', async (req, res) => {
+  const { name } = req.params;
+  try {
+    const result = await Schraube.aggregate([
+      {
+        $match: {
+          Hersteller: name
+        }
+      },
+      {
+        $group: {
+          _id: { $dateToString: { format: "%Y-%m", date: "$Datum" } },
+          Umsatz: { $sum: { $multiply: ["$Preis", "$VerkaufteMenge"] } },
+          Menge: { $sum: "$VerkaufteMenge" }
+        }
+      },
+      {
+        $sort: { _id: 1 }
+      }
+    ]);
+    res.json(result);
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Error retrieving data from MongoDB for Hersteller');
   }
 });
 
