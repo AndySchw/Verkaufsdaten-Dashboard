@@ -1,6 +1,6 @@
 async function createChart() {
   // Fetch data from the server
-  const response = await fetch('http://localhost:3000/api/hersteller/HECO');
+  const response = await fetch('http://localhost:3000/api/hersteller/Wuerth');
   const result = await response.json();
 
   // Extract data for the chart
@@ -29,10 +29,10 @@ async function createChart() {
   };
 
   // Create or update the Chart.js chart
-  let chart = Chart.getChart('barchart6');
+  let chart = Chart.getChart('barchart8');
   if (!chart) {
     chart = new Chart(
-      document.getElementById('barchart6'),
+      document.getElementById('barchart8'),
       {
         type: 'bar',
         data: data,
