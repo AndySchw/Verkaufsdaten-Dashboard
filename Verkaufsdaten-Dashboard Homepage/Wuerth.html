@@ -14,7 +14,7 @@
       <li><a href="SWG.html"><img src="Logo SWG.jpg" alt="SWG" style="width: 100px; height: 45px;"></a></li>
       <li><a href="Wuerth.html"><img src="Logo Wuerth.jpg" alt="Wuerth" style="width: 100px; height: 45px;"></a></li>
     </ul>
-    
+
     <div class="switch-container">
       <input type="checkbox" id="switch" />
       <label for="switch"></label>
@@ -28,9 +28,9 @@
         <img src="Logo Wuerth.jpg" alt="Wuerth-Logo">
       </div>
       <div class="text-container" id="typing-effect">
-         Würth Innovationsschrauben ermöglichen Ihnen die weltweit beste Performance – unsere Spitzenprodukte liefern
-          Ihnen absolute Stabilität und Flexibilität zugleich. Würth forscht und entwickelt stets daran, Schraube und
-          Bit kontinuierlich zu verbessern und den täglichen Anforderungen in der Praxis besser anzupassen.
+        Würth Innovationsschrauben ermöglichen Ihnen die weltweit beste Performance – unsere Spitzenprodukte liefern
+        Ihnen absolute Stabilität und Flexibilität zugleich. Würth forscht und entwickelt stets daran, Schraube und
+        Bit kontinuierlich zu verbessern und den täglichen Anforderungen in der Praxis besser anzupassen.
       </div>
     </div>
 
@@ -42,6 +42,12 @@
     </div>
   </div>
 
+  <footer>
+
+    <h3 class="credits">&copy; 2023 Our Dashboard </h3>
+    <p class="credits"> - Created with ❤️ by Satisfraction | ChristianGruend | Martin20231 | JTyga | AndySchw</p>
+
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
@@ -49,17 +55,17 @@
   <script src="script.js"></script>
   <script>
     const textElement = document.getElementById('typing-effect');
-const text = textElement.innerHTML;
-textElement.innerHTML = '';
+    const text = textElement.innerHTML;
+    textElement.innerHTML = '';
 
-let index = 0;
-const typingInterval = setInterval(() => {
-  textElement.innerHTML += text[index];
-  index++;
-  if (index >= text.length) {
-    clearInterval(typingInterval);
-  }
-}, 50);
+    let index = 0;
+    const typingInterval = setInterval(() => {
+      textElement.innerHTML += text[index];
+      index++;
+      if (index >= text.length) {
+        clearInterval(typingInterval);
+      }
+    }, 50);
   </script>
 
 </body>
