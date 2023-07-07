@@ -15,7 +15,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hersteller<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="HECO.html"> HECO</a></li>
-          <li><a href="SWG.html">  SWG</a></li>
+          <li><a href="SWG.html"> SWG</a></li>
           <li><a href="Wuerth.html">Wuerth</a></li>
         </ul>
       </li>
@@ -26,16 +26,31 @@
     </div>
   </nav>  
 
-  <!-- Logo -->
-  <div class="logo">
-    <img id="hersteller-logo" src="HECO-Logo.jpg" alt="Hersteller-Logo">
-  </div>
-
-  <div class="heco">
-    <div>
-      <canvas id="barchart6"></canvas>
+    <div class="page-container">
+      <!-- Logo -->
+      <div class="logo-container">
+        <div class="logo">
+          <img id="hersteller-logo" src="HECO-Logo.jpg" alt="HECO-Logo">
+        </div>
+        <!-- Text -->
+        <div class="text-container">
+          <p>HECO-Schrauben gehört zu den führenden Herstellern von Schrauben- und Befestigungssystemen für den konstruktiven
+            Holz- und Innenausbau, den Beton- und Metallbau sowie für Schwerlastbefestigungen. Das Familienunternehmen mit Sitz
+            in Schramberg im Schwarzwald fokussiert sich auf die Entwicklung und Herstellung von Schrauben, die über einen hohen
+            technischen Nutzen sowie Zuverlässigkeit und Anwendungskomfort verfügen. Das Produktportfolio umfasst Universal-,
+            Holz- und Betonschrauben in unterschiedlichen Abmessungen und Ausführungen. Das Unternehmen bietet für alle
+            Produktfamilien allgemeine bauaufsichtliche Zulassungen in Form nationaler oder europäisch-technischer Bewertungen
+            (ETA) an.</p>
+        </div>
+      </div>
+  
+      <!-- Chart -->
+      <div class="chart-container">
+        <div class="chart">
+          <canvas id="barchart6"></canvas>
+        </div>
+      </div>
     </div>
-  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
