@@ -29,6 +29,12 @@ async function createChart() {
       type: "doughnut",
       data: data,
       options: {
+        plugins: {
+          title: {
+            display: true,
+            text: 'Beste Tage/Verkäufe'
+          }
+        },
         scales: {
           y: {
             min: minValue

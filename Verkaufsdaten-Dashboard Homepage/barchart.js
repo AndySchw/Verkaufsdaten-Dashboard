@@ -30,6 +30,12 @@ async function createChart() {
       type: "pie",
       data: data,
       options: {
+        plugins: {
+          title: {
+            display: true,
+            text: 'Meisstverkaufte Schrauben'
+          }
+        },
         scales: {
           y: {
             min: minValue

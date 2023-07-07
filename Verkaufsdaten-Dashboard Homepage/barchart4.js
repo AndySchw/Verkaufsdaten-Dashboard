@@ -73,6 +73,12 @@ new Chart(
       type: "polarArea",
       data: data,
       options: {
+        plugins: {
+          title: {
+            display: true,
+            text: 'Meisstverkaufte Schrauben'
+          }
+        },
         scales: {
           y: {
             beginAtZero: true

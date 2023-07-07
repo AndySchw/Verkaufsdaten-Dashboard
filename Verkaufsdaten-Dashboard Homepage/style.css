@@ -274,9 +274,9 @@ input[type="checkbox"]:checked+label:before {
 
 /* Footer */
 footer {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2b9;
     padding: 10px;
-    margin-left: 310px;
+    margin-left: 520px;
     text-align: center;
 }
 
