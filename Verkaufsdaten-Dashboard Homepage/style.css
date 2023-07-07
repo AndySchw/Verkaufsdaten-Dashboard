@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #0a43fd;
+    background-color: #baf4ee;
     border: solid 2px #fff;
     border-radius: 5px;
 }
@@ -28,7 +28,7 @@ li+li {
 ul li a {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #6a77e9;
+    background-color: #29bdf3;
     color: #ffffff;
     text-decoration: none;
     border-radius: 4px;
@@ -36,7 +36,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #45a049;
+    background-color: #f47e7e;
 }
 
 a {
@@ -116,7 +116,7 @@ input[type="checkbox"]:checked+label:before {
     border-radius: 5px;
     padding: 8px 0;
     margin: 0;
-    background-color: #0a43fd;
+    background-color: rgba(241, 241, 12, 0);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -162,7 +162,7 @@ input[type="checkbox"]:checked+label:before {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #6a77e9;
+    background-color: #d5e0e2;
 }
 
 /* Ende Hauptteil Oben */
