@@ -26,7 +26,7 @@ async function createChart() {
   new Chart(
     document.getElementById('barchart3'),
     {
-      type: "bar",
+      type: "doughnut",
       data: data,
       options: {
         scales: {

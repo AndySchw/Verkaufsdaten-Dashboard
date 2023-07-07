@@ -7,12 +7,19 @@
 </head>
 
 <body>
-  <ul>
-    <li><a href="index.html"><img src="dashboard.png" alt="HECO" style="width: 100px; height: 45px;"></a></li>
-    <li><a href="HECO.html"><img src="HECO-Logo.jpg" alt="HECO" style="width: 100px; height: 45px;"></a></li>
-    <li><a href="SWG.html"><img src="Logo SWG.jpg" alt="SWG" style="width: 100px; height: 45px;"></a></li>
-    <li><a href="Wuerth.html"><img src="Logo Wuerth.jpg" alt="Wuerth" style="width: 100px; height: 45px;"></a></li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="index.html"><img src="dashboard.png" alt="HECO" style="width: 100px; height: 45px;"></a></li>
+      <li><a href="HECO.html"><img src="HECO-Logo.jpg" alt="HECO" style="width: 100px; height: 45px;"></a></li>
+      <li><a href="SWG.html"><img src="Logo SWG.jpg" alt="SWG" style="width: 100px; height: 45px;"></a></li>
+      <li><a href="Wuerth.html"><img src="Logo Wuerth.jpg" alt="Wuerth" style="width: 100px; height: 45px;"></a></li>
+    </ul>
+    
+    <div class="switch-container">
+      <input type="checkbox" id="switch" />
+      <label for="switch"></label>
+    </div>
+  </nav>
 
   <div class="page-container">
     <!-- Logo und Text -->
@@ -21,7 +28,7 @@
         <img src="Logo Wuerth.jpg" alt="Wuerth-Logo">
       </div>
       <div class="text-container" id="typing-effect">
-          Würth Innovationsschrauben ermöglichen Ihnen die weltweit beste Performance – unsere Spitzenprodukte liefern
+         Würth Innovationsschrauben ermöglichen Ihnen die weltweit beste Performance – unsere Spitzenprodukte liefern
           Ihnen absolute Stabilität und Flexibilität zugleich. Würth forscht und entwickelt stets daran, Schraube und
           Bit kontinuierlich zu verbessern und den täglichen Anforderungen in der Praxis besser anzupassen.
       </div>
@@ -40,6 +47,20 @@
   <script src="https://cdn.jsdelivr.net/npm/mongodb"></script>
   <script src="barchart8.js"></script>
   <script src="script.js"></script>
+  <script>
+    const textElement = document.getElementById('typing-effect');
+const text = textElement.innerHTML;
+textElement.innerHTML = '';
+
+let index = 0;
+const typingInterval = setInterval(() => {
+  textElement.innerHTML += text[index];
+  index++;
+  if (index >= text.length) {
+    clearInterval(typingInterval);
+  }
+}, 50);
+  </script>
 
 </body>
 

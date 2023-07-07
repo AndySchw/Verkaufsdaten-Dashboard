@@ -4,6 +4,15 @@ body {
     font-size: 18px;
 }
 
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    width: 200px;
+  }
+
 /* Kopfbereich */
 /* Navbar mit Darkmode Switch */
 nav {
@@ -14,6 +23,7 @@ nav {
     background-color: #baf4ee;
     border: solid 2px #fff;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 ul {
@@ -121,11 +131,9 @@ input[type="checkbox"]:checked+label:before {
     flex-basis: calc(33.33% - 10px);
     padding: 20px;
     box-sizing: border-box;
-    min-height:
-
-        105px;
+    min-height: 125px;
     margin-bottom: 21px;
-    margin-right: 5px;
+    margin-right: 8px;
     border: 2px solid #fbfbfb;
     border-radius: 5px;
     display: flex;
@@ -133,8 +141,10 @@ input[type="checkbox"]:checked+label:before {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #d5e0e2;
+    background-color: #9fb9bd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
+
 
 /* Ende Hauptteil Oben */
 
@@ -212,6 +222,7 @@ input[type="checkbox"]:checked+label:before {
 #barchart4,
 #barchart5 {
     background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
     border: solid 2px black;
     margin: 3px;
 }
@@ -243,6 +254,10 @@ input[type="checkbox"]:checked+label:before {
     width: 40%;
     text-align: center;
   }
+
+  .logo {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
   
   .text-container {
     margin-top: 20px;
@@ -252,6 +267,7 @@ input[type="checkbox"]:checked+label:before {
     background-color: #fff;
     flex: 1;
     margin-left: 20px;
+    border: solid 2px #000;
   }
 
 /* Ende Design für die Einzelseiten */

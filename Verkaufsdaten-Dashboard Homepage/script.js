@@ -15,18 +15,18 @@ switchToggle.addEventListener("change", () => {
 });
 
 // Funktion für das Text im Typing
-const textElement = document.getElementById('typing-effect');
-const text = textElement.innerHTML;
-textElement.innerHTML = '';
+// const textElement = document.getElementById('typing-effect');
+// const text = textElement.innerHTML;
+// textElement.innerHTML = '';
 
-let index = 0;
-const typingInterval = setInterval(() => {
-  textElement.innerHTML += text[index];
-  index++;
-  if (index >= text.length) {
-    clearInterval(typingInterval);
-  }
-}, 50);
+// let index = 0;
+// const typingInterval = setInterval(() => {
+//   textElement.innerHTML += text[index];
+//   index++;
+//   if (index >= text.length) {
+//     clearInterval(typingInterval);
+//   }
+// }, 50);
 
 
 // Umsatz pro Schraubenart pro Hersteller

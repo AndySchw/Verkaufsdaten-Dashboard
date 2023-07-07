@@ -27,7 +27,7 @@ async function createChart() {
   new Chart(
     document.getElementById('barchart'),
     {
-      type: "bar",
+      type: "pie",
       data: data,
       options: {
         scales: {
