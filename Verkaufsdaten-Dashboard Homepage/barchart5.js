@@ -82,8 +82,9 @@ async function createChart5(hersteller) {
         type: "bar",
         data: data,
         options: {
+          indexAxis: 'y', // Display bars horizontally
           scales: {
-            y: {
+            x: {
               min: minValue
             }
           }

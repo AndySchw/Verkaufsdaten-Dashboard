@@ -70,7 +70,7 @@ async function createChart() {
 new Chart(
     document.getElementById('barchart4'),
     {
-      type: "pie",
+      type: "polarArea",
       data: data,
       options: {
         scales: {
