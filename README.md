@@ -1,30 +1,32 @@
-# Verkaufsdaten-Dashboard Techstarter-Aufgabe
+# Schrauben24 API
 
-Dieses Projekt implementiert eine Webseite für eine Chart.js Techstarter-Aufgabe. Es verwendet HTML, CSS und JavaScript sowie die Chart.js-Bibliothek, um interaktive Balkendiagramme und dynamische Ausgaben basierend auf Benutzerauswahlen zu erstellen.
+Diese RESTful API wurde mit Express.js und MongoDB für die Schrauben24-Anwendung entwickelt. Sie bietet verschiedene Endpunkte zum Abrufen von Daten zu Schraubenverkäufen, Herstellern und Umsätzen.
 
-## Installation
+## Voraussetzungen
 
-Folgen Sie diesen Schritten, um die Webseite auszuführen:
+- Node.js
+- MongoDB
 
-1. Klonen Sie das Repository oder laden Sie die Projektdateien herunter.
-2. Öffnen Sie die Datei `index.html` in einem Webbrowser.
+## Erste Schritte
 
-## Funktionen
+1. Klonen oder laden Sie das Repository herunter.
+2. Installieren Sie die Abhängigkeiten mit dem Befehl `npm install`.
+3. Starten Sie den Server mit dem Befehl `npm start`.
+4. Der Server läuft unter `http://localhost:3000`.
 
-- Navigationsleiste mit einem Dark Mode-Schalter.
-- Dynamische Ausgabe und Dropdown-Menüs zur Auswahl verschiedener Diagrammdaten.
-- Mehrere Balkendiagramme werden im mittleren Abschnitt angezeigt.
-- Dropdown-Menüs zur Auswahl verschiedener Diagramme und Hersteller im unteren Abschnitt.
+## API-Endpunkte
 
-## Verwendung
+- `GET /api/schrauben`: Ruft alle Schrauben ab.
+- `GET /api/top3`: Ruft die 3 meistverkauften Schraubenarten ab.
+- `GET /api/hersteller`: Ruft die Hersteller und ihren Gesamtumsatz ab.
+- `GET /api/date`: Ruft die Verkaufsmenge pro Tag ab.
+- `GET /api/verkaufswochentag`: Ruft den Durchschnittsverkauf pro Wochentag ab.
+- `GET /api/prozent/:hersteller`: Ruft den prozentualen Verkauf für jede Schraubenart eines Herstellers ab.
+- `GET /api/hersteller/:name`: Ruft Umsatz, Menge und Trends für jeden Hersteller ab.
+- `GET /api/verkaufswerte/:hersteller/:schraube`: Ruft den Gesamtverkaufswert für einen bestimmten Schraubentyp und Hersteller ab.
+- `GET /api/topschraube/:hersteller`: Ruft den meistverkauften Schraubentyp für einen bestimmten Hersteller ab.
+- `GET /api/gesamtumsatz/:hersteller`: Ruft den Gesamtumsatz für einen bestimmten Hersteller innerhalb eines Monats ab.
 
-1. Navigieren Sie zu der Webseite in einem Webbrowser.
-2. Verwenden Sie die Dropdown-Menüs im oberen Abschnitt, um verschiedene Diagrammdaten auszuwählen.
-3. Die ausgewählten Daten werden dynamisch in den entsprechenden Ausgabefeldern angezeigt.
-4. Die Balkendiagramme im mittleren Abschnitt visualisieren die ausgewählten Daten.
-5. Im unteren Abschnitt wählen Sie verschiedene Diagramme und Hersteller aus, um die entsprechenden Diagramme anzuzeigen.
+## Datenbankverbindung
 
-## Abhängigkeiten
-
-- Chart.js: [https://cdn.jsdelivr.net/npm/chart.js](https://cdn.jsdelivr.net/npm/chart.js)
-- MongoDB: [https://cdn.jsdelivr.net/npm/mongodb](https://cdn.jsdelivr.net/npm/mongodb)
+Die API stellt eine Verbindung zu einer MongoDB-Datenbank her, indem sie den folgenden Verbindungsstring verwendet:
