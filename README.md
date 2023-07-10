@@ -1,6 +1,6 @@
-# Schrauben24 API
+# Verkaufsdaten-Dashboard API
 
-Diese RESTful API wurde mit Express.js und MongoDB für die Schrauben24-Anwendung entwickelt. Sie bietet verschiedene Endpunkte zum Abrufen von Daten zu Schraubenverkäufen, Herstellern und Umsätzen.
+Diese RESTful API wurde mit Express.js und MongoDB für die Verkaufsdaten-Dashboard-Anwendung entwickelt. Sie bietet verschiedene Endpunkte zum Abrufen von Daten zu Schraubenverkäufen, Herstellern und Umsätzen.
 
 ## Voraussetzungen
 
