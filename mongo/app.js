@@ -9,7 +9,6 @@ const { DateTime } = require('luxon');
 //max fragen ob mit cors? .. 
 app.use(cors());
 
-
 // Define Mongoose schema
 const SchraubeSchema = new Schema({
   Hersteller: String,
@@ -21,11 +20,24 @@ const SchraubeSchema = new Schema({
 
 const Schraube = mongoose.model('Schraube', SchraubeSchema);
 
+// Verbindung zur MongoDB 
+const DB_USERNAME = process.env.DB_USERNAME; 
+const DB_PASSWORD = process.env.DB_PASSWORD; 
+const DB_CLUSTER = process.env.DB_CLUSTER; 
+const DB_NAME = process.env.DB_NAME; 
+
+const connStr = `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@${DB_CLUSTER}/${DB_NAME}?retryWrites=true&w=majority`; 
+
+ 
 // Connect to MongoDB
 mongoose.connect("mongodb+srv://christiangruender:8fBQzZdDlLX1kBE4@cluster0.xhnylat.mongodb.net/schrauben24?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true })
   .then(async () => {
     console.log('MongoDB connected...');
+
+// mongoose.connect(connStr, { useNewUrlParser: true, useUnifiedTopology: true }) 
+//     .then(async() => { 
+//       console.log('MongoDB verbunden...');
 
     // Read the JSON file
     const data = JSON.parse(fs.readFileSync('output.json', 'utf8'));
@@ -45,7 +57,6 @@ mongoose.connect("mongodb+srv://christiangruender:8fBQzZdDlLX1kBE4@cluster0.xhny
     console.log('Data inserted successfully');
   })
   .catch(err => console.log(err));
-
 
 
 //routen..
